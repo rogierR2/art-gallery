@@ -7,7 +7,7 @@ function About() {
             <h1>About me</h1>
             <div className="text-container">
                 <h2>Hi, my name is Rogier!</h2>
-                <img src="images/profile.jpg" />
+                <img src="images/profile.jpg" alt="Rogier profile picture" />
                 <p>I am an IT-student who wants to learn more about front-end web development and design.</p>
                 <p>I also like to draw!</p>
                 <br />
