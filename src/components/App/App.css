@@ -23,6 +23,13 @@ hr {
 	background: #a8a8a8;
 }
 
+.text-container {
+    display: grid;
+    justify-content: center;
+    padding: 30px;
+    padding-left: 10%;
+}
+
 .App {
 	padding-top: 5em;
 	background: #a8a8a8;

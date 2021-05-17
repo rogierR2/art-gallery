@@ -11,6 +11,10 @@ p, small {
     margin: auto 0;
 }
 
+.painting-image {
+    max-width: 100%;
+}
+
 .Painting {
     margin: 30px;
     margin-top: 30px;
