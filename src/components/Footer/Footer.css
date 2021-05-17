@@ -1,0 +1,29 @@
+Footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	padding-right: 10px;
+}
+
+Footer a {
+	text-decoration: none;
+}
+
+Footer p {
+	color: black;
+	text-align: right;
+	font-family: 'Cinzel Decorative';
+	font-size: 15px;
+}
+
+.ig-logo {
+	margin-left: 6px;
+}
+
+@media (max-width: 935px) {
+	Footer {
+		background-color: #949494;
+		width: 100%;
+		opacity: 0.8;
+	}
+}

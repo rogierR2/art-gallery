@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+h1 {
+	margin: 20px;
+  	text-align: center;
+	font-family: "Cinzel Decorative";
+}
+
+hr {
+	margin-top: 50px;
+	margin-left: 144px;
+	margin-right: 144px;
+	background: #a8a8a8;
+}
+
+.App {
+	padding-top: 5em;
+	background: #a8a8a8;
+	background-image: url('../../images/white_wall.png');
+}
+
+@media (max-width: 560px) {
+	p {
+		font-size: 1.2em;
+	}
+}

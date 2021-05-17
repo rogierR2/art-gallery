@@ -1,0 +1,9 @@
+.Info {
+    padding-left: 15px;
+}
+
+.center {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
