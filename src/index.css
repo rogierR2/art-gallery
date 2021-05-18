@@ -7,6 +7,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+	background: #303030;
+	/* background-image: url('../src/images/white_wall.png'); */
 }
 
 code {

@@ -8,7 +8,7 @@ class Painting extends React.Component {
             // TODO: Problem: images loading speed is too low using slower internet (throttling) -> lower resolution images for faster loading
             <article className="Painting fit" key={this.props.painting.id}>
                 <figure className="image-container">
-                    <a href="">
+                    <a href="/gallery">
                         <img className="painting-image" src={this.props.painting.imgSrc} alt={this.props.painting.title + " painting"} />
                     </a>
                 </figure>

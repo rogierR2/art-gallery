@@ -2,7 +2,7 @@ import React from 'react';
 import './Button.css';
 import { Link } from 'react-router-dom';
 
-const STYLES = ['btn btn-dark', 'btn btn-outline-dark', 'btn btn-secondary'];
+const STYLES = ['btn btn-light', 'btn btn-dark', 'btn btn-outline-dark', 'btn btn-secondary'];
 const SIZES = ['btn-m', 'btn-lg']
 
 export const Button = ({
