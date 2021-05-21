@@ -9,6 +9,15 @@ p, small {
 
 .image-container {
     margin: auto 0;
+    padding-bottom: 20px;
+}
+
+.modal-container {
+    position: "absolute";
+    top: 20;
+    left: 20;
+    border: "1px solid gray";
+    background-color: "white";
 }
 
 .painting-image {
@@ -22,10 +31,10 @@ p, small {
     margin-bottom: 40px;    
     display: inline-block;
     position: relative;
-    border: 3px solid rgb(82, 82, 82);
+    border: 3px solid rgb(73, 73, 73);
     padding: 5px;
     align-items: center;
-    background:#919191;
+    background: #e2e2e2;
     justify-content: center;
 }
 

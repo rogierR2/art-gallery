@@ -1,11 +1,12 @@
 import React from 'react';
 import './Button.css';
 import { Link } from 'react-router-dom';
+import Button from 'react-bootstrap/Button';
 
-const STYLES = ['btn btn-light', 'btn btn-dark', 'btn btn-outline-dark', 'btn btn-secondary'];
-const SIZES = ['btn-m', 'btn-lg']
+const STYLES = ['light', 'dark', 'outline-dark', 'secondary'];
+const SIZES = ['md', 'lg']
 
-export const Button = ({
+export const ButtonComponent = ({
     children, 
     type, 
     onClick, 
@@ -21,13 +22,14 @@ export const Button = ({
 
         return (
             <Link to='/gallery' className='btn-mobile'>
-                <button
-                    className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+                <Button
+                    // className={`variant=${checkButtonStyle} size=${checkButtonSize}`}
+                    variant='light'
                     onClick={onClick}
                     type={type}
                 >
                     {children}
-                </button>
+                </Button>
             </Link>
         )
     };

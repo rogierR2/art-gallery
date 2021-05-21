@@ -1,6 +1,6 @@
 import React from 'react';
 import './Intro.css';
-import { Button } from '../Button/Button';
+import { ButtonComponent } from '../Button/Button';
 
 class Intro extends React.Component {
     render() {
@@ -13,12 +13,9 @@ class Intro extends React.Component {
                 </article>
                 <br />
                 <div className='intro-btns'>
-                    <Button
-                        className='gallery-btn'
-                        buttonSize='btn-lg'
-                    >
+                    <ButtonComponent>
                         Go to Gallery
-                    </Button>
+                    </ButtonComponent>
                 </div>
                 <hr />
             </section>
